@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Breno\\desktop\\web-mvc\\web-mvc.csproj": {}
+    "C:\\Users\\Breno\\Desktop\\web-mvc\\web-mvc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Breno\\desktop\\web-mvc\\web-mvc.csproj": {
+    "C:\\Users\\Breno\\Desktop\\web-mvc\\web-mvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Breno\\desktop\\web-mvc\\web-mvc.csproj",
+        "projectUniqueName": "C:\\Users\\Breno\\Desktop\\web-mvc\\web-mvc.csproj",
         "projectName": "web-mvc",
-        "projectPath": "C:\\Users\\Breno\\desktop\\web-mvc\\web-mvc.csproj",
+        "projectPath": "C:\\Users\\Breno\\Desktop\\web-mvc\\web-mvc.csproj",
         "packagesPath": "C:\\Users\\Breno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Breno\\desktop\\web-mvc\\obj\\",
+        "outputPath": "C:\\Users\\Breno\\Desktop\\web-mvc\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Breno\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -35,6 +35,22 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
